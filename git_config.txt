@@ -1,14 +1,13 @@
--Durign the installation mark "Use a TrueType font in all console windows (not only for Git Bash)"
+-During the installation mark "Use a TrueType font in all console windows (not only for Git Bash)"
 -In Git Bash click right button and in Properties windows mark "QuickEdit Mode"
 -In Git Bash click right button and in Default window change background to white and text to black
--In <UserDirectory> create folder verion-control
+-In <UserDirectory> create folder version-control
 -Getting Colored Output - To get colored diff output, run git config --global color.ui auto
--Save files git-completion.bash git-prompt.sh and bash_profile_course to your <UserDirectory>
--Rename bash_profile_course to .bash_profile
--Config default texteditor - in Git Bash type git config --global core.editor "'Editor path' -n -w" (-n open in new window; -w wait for close the editor)
-  ex.: git config --global core.editor "'C:\Program Files (x86)\MetaPad\metapad.exe' -n -w"
+-Save files git-completion.bash git-prompt.sh and .bash_profile to your <UserDirectory>
+-Config default text editor - in Git Bash type git config --global core.editor "'Editor path' -n -w" (-n open in new window; -w wait for close the editor)
+  ex.: git config --global core.editor "C:\Windows\System32\notepad.exe' -n -w"
 -Add alias do texEditor by adding line in file .bash_profile - alias <aliasName> = "Editor path"
-  ex.: alias editor="C:\Program Files (x86)\MetaPad\metapad.exe"
+  ex.: alias editor="C:\Windows\System32\notepad.exe"
 -Close and reopen Git Bash
 -Additional config by typing 2 lines:
   git config --global push.default upstream
