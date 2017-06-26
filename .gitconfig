@@ -1,7 +1,10 @@
+[user]
+	name = CMarcin
+	email = marcin.jan.ciesielski@gmail.com
 [color]
 	ui = auto
 [core]
-	editor = 'C:\\Program Files (x86)\\MetaPad\\metapad.exe' -n -w
+	editor = 'C:\\Windows\\System32\\notepad.exe' -n -w
 [push]
 	default = upstream
 [merge]
